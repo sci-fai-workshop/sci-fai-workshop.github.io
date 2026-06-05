@@ -281,7 +281,32 @@ div.margin {
 .schedule-table th.w-20 { width: 18%; }
 .schedule-table th.w-40 { width: 30%; }
 
-/* ---------- Topics / CfP ---------- */
+/* ---------- Topics list ---------- */
+ul.topics-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 16px 0 0;
+}
+ul.topics-list li {
+    position: relative;
+    padding: 10px 0 10px 22px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 1.55;
+}
+ul.topics-list li:last-child { border-bottom: none; }
+ul.topics-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #15181f;
+}
+ul.topics-list li b { color: #15181f; }
+
+/* ---------- Topics / CfP (legacy cards, unused) ---------- */
 .call {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
