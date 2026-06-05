@@ -2,7 +2,8 @@
 
 Workshop website for **Sci-fAI: Science for Artificial Intelligence** — proposed NeurIPS 2026 workshop.
 
-Live URL (once deployed): https://scifai26.github.io
+Live URL (once deployed): sci-fai-workshop.github.io
+
 
 ## Structure
 
