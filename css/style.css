@@ -310,6 +310,7 @@ div.margin {
 .sess-tag.t-brk   { background:#f3f3f3; color:#6a7080; }
 .sess-tag.t-award { background:#fff3e0; color:#a04500; }
 .sess-tag.t-panel { background:#fce8ee; color:#b03060; }
+.sess-tag.t-ment  { background:#e7f1ff; color:#1f4f9c; }
 
 .panel-list { margin: 6px 0 0; padding-left: 18px; font-size: 0.92em; color: #5b6170; }
 .panel-list li { margin-bottom: 4px; }
