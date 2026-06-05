@@ -155,6 +155,12 @@ p { margin-bottom: 0.9em; }
     color: #15181f;
     font-weight: 800;
 }
+.title-accent { color: #ce5a17; }
+.subtitle-accent {
+    font-weight: 600;
+    color: #15181f;
+    font-style: italic;
+}
 
 .hero-contact {
     margin-top: 22px;
