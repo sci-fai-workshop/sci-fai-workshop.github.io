@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sci-fAI: Science for Artificial Intelligence &mdash; NeurIPS 2026 Workshop</title>
+    <meta name="description" content="NeurIPS 2026 Workshop on Science for AI: connecting and inspiring multidisciplinary efforts to reveal the principles inside foundation models." />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-spy="scroll" data-target="#main-navigation" data-offset="60">
+
+    <!-- ============== NAV ============== -->
+    <nav id="navbar" class="navbar navbar-expand-xl navbar-expand-lg navbar-expand-custom sticky-nav">
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="#call">Call for Papers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#dates">Dates</a></li>
+                <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============== HERO ============== -->
+    <div class="title-container">
+        <div class="title-eyebrow">NeurIPS 2026 &middot; Workshop Proposal</div>
+        <h1 class="title">Sci-fAI</h1>
+        <div class="subtitle">Science for Artificial Intelligence</div>
+        <div class="tagline">
+            AI as a new object of science &mdash; connecting and inspiring multidisciplinary efforts across
+            mathematics, physics, cognitive science, and neuroscience to reveal the principles inside foundation models.
+        </div>
+    </div>
+
+    <!-- ============== OVERVIEW ============== -->
+    <section id="overview">
+        <div class="sectitle"><h2>Overview</h2></div>
+        <div class="margin">
+            <p class="overview-lead">
+                This workshop unites four scientific communities &mdash; <b>Mathematics</b>, <b>Physics</b>,
+                <b>Cognitive Science</b>, and <b>Neuroscience</b> &mdash; to advance the foundational
+                understanding and design of modern AI systems.
+            </p>
+
+            <p>
+                AI was originally built from the foundational principles of mathematics, physics, neuroscience,
+                and cognitive science, but contemporary model development has drifted into a regime where scaling,
+                data curation, and empirical trial-and-error dominate, and the scientific traditions that seeded
+                the field have receded from the design loop. While AI has powered discoveries across many sciences,
+                researchers from a wide range of disciplines are now going in the inverse direction &mdash;
+                pushing the new frontier of <em>Science for AI</em> that reveals the principles underlying today's
+                standard practices, and turns theory into the next generation of systems.
+            </p>
+
+            <p>
+                Capabilities such as in-context learning and multi-step reasoning were never explicitly coded;
+                they emerged. Macroscopic regularities like empirical scaling laws, double descent, grokking,
+                contested phase-transition-like emergence, and structured circuit formation challenge our theories
+                and intuitions about intelligence. Our relationship with AI has shifted from pure construction to a
+                dialogue between <b>discovery and design</b>.
+            </p>
+
+            <blockquote>
+                Treated as model organisms &mdash; probeable, perturbable, and comparable across scale and
+                architecture &mdash; neural networks can be understood well enough to inform their own next
+                iteration, with the rigor that mature engineering disciplines take for granted.
+            </blockquote>
+
+            <h3 style="margin-top:30px;">Four sciences for AI</h3>
+            <div class="disciplines">
+                <div class="card math">
+                    <h4><span class="ico"></span>Mathematics for AI</h4>
+                    <div class="body">
+                        High-dimensional probability, random matrix theory, statistical learning theory, and
+                        optimization geometry &mdash; the formal machinery to characterize learning dynamics
+                        and design algorithms with provable guarantees.
+                    </div>
+                </div>
+                <div class="card phys">
+                    <h4><span class="ico"></span>Physics for AI</h4>
+                    <div class="body">
+                        Four decades of statistical mechanics for disordered learning systems, from Hopfield capacity
+                        to replica analyses and infinite-width feature-learning limits &mdash; now designing the
+                        training regimes that exploit them.
+                    </div>
+                </div>
+                <div class="card cog">
+                    <h4><span class="ico"></span>Cognitive Science for AI</h4>
+                    <div class="body">
+                        Psychophysics, behavioral paradigms, theory-of-mind probing, and dual-process frameworks &mdash;
+                        characterizing what a system "knows" from its outputs and identifying cognitive primitives
+                        for next-generation systems.
+                    </div>
+                </div>
+                <div class="card neu">
+                    <h4><span class="ico"></span>Neuroscience for AI</h4>
+                    <div class="body">
+                        A century of reverse-engineering opaque, learned biological networks through targeted
+                        ablation, perturbation, and circuit-motif identification &mdash; supplying both diagnostic
+                        methods and design templates that translate into capable AI.
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top:35px;">Goals</h3>
+            <ol>
+                <li><b>Map alignments and disagreements.</b> Convene leading researchers across the four traditions
+                    to harmonize terminology and surface points of tension.</li>
+                <li><b>Translate findings into design.</b> Turn empirical findings about emergence, phase transitions,
+                    and circuit formation into actionable principles for new architectures, optimizers, and training regimes.</li>
+                <li><b>Formalize standards for a science of AI.</b> What counts as a valid explanation, a sound
+                    measurement, and an empirical law in this domain?</li>
+                <li><b>Lower the barrier to entry.</b> Welcome researchers from physics, mathematics, neuroscience,
+                    and cognitive science who hold the methodological tools but lack an entry point into mainstream ML.</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- ============== SPEAKERS ============== -->
+    <section class="speakers" id="speakers">
+        <div class="sectitle">
+            <h2>Invited Speakers</h2>
+            <p style="text-align:center; color:#555; margin-top:10px;">
+                All speakers are <b>confirmed</b> and will present in person where the workshop is held.
+            </p>
+        </div>
+        <div class="grid">
+            <div class="row">
+                <div class="person">
+                    <a href="https://amlab.science.uva.nl/people/MaxWelling/" target="_blank">
+                        <img src="imgs/welling.jpg" alt="Max Welling" />
+                    </a>
+                    <h5><a href="https://amlab.science.uva.nl/people/MaxWelling/" target="_blank">Max Welling</a></h5>
+                    <div class="affil">University of Amsterdam</div>
+                </div>
+                <div class="person">
+                    <a href="https://www.saxelab.org/people/andrewsaxe/" target="_blank">
+                        <img src="imgs/saxe.jpg" alt="Andrew Saxe" />
+                    </a>
+                    <h5><a href="https://www.saxelab.org/people/andrewsaxe/" target="_blank">Andrew Saxe</a></h5>
+                    <div class="affil">University College London</div>
+                </div>
+                <div class="person">
+                    <a href="https://hcai-munich.com/eric.html" target="_blank">
+                        <img src="imgs/schulz.jpg" alt="Eric Schulz" />
+                    </a>
+                    <h5><a href="https://hcai-munich.com/eric.html" target="_blank">Eric Schulz</a></h5>
+                    <div class="affil">Helmholtz Institute for Human-Centered AI</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="person">
+                    <a href="https://scholar.google.com/citations?user=SHufeXQAAAAJ" target="_blank">
+                        <img src="imgs/doya.jpg" alt="Kenji Doya" />
+                    </a>
+                    <h5><a href="https://scholar.google.com/citations?user=SHufeXQAAAAJ" target="_blank">Kenji Doya</a></h5>
+                    <div class="affil">Okinawa Institute of Science and Technology</div>
+                </div>
+                <div class="person">
+                    <a href="https://www.shirleyho.space/" target="_blank">
+                        <img src="imgs/ho.jpg" alt="Shirley Ho" />
+                    </a>
+                    <h5><a href="https://www.shirleyho.space/" target="_blank">Shirley Ho</a></h5>
+                    <div class="affil">NYU &middot; Simons Foundation</div>
+                </div>
+                <div class="person">
+                    <a href="https://tensorlab.cms.caltech.edu/users/anima/" target="_blank">
+                        <img src="imgs/anandkumar.jpg" alt="Anima Anandkumar" />
+                    </a>
+                    <h5><a href="https://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima Anandkumar</a></h5>
+                    <div class="affil">Caltech</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== SCHEDULE ============== -->
+    <section id="schedule">
+        <div class="sectitle"><h2>Tentative Schedule</h2></div>
+        <div class="margin">
+            <p style="text-align:center; color:#555;">
+                We have curated the schedule to ensure adequate time for discussion, spread throughout the day.
+            </p>
+        </div>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th class="w-20">Time</th>
+                    <th class="w-40">Session</th>
+                    <th class="w-40">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>08:55 &ndash; 09:00</td>
+                    <td><h4>Opening Remarks</h4></td>
+                    <td><p>Welcome and overview from the organizers.</p></td>
+                </tr>
+                <tr>
+                    <td>09:00 &ndash; 09:30</td>
+                    <td><h4>Contributed Spotlights 1&ndash;3</h4></td>
+                    <td><p>8 min talk + 2 min Q&amp;A each.</p></td>
+                </tr>
+                <tr>
+                    <td>09:30 &ndash; 11:00</td>
+                    <td><h4>Invited Talks 1&ndash;3</h4></td>
+                    <td><p>25 min talk + 5 min Q&amp;A each.</p></td>
+                </tr>
+                <tr>
+                    <td>11:00 &ndash; 12:00</td>
+                    <td><h4>Poster Session 1</h4></td>
+                    <td><p>Interactive poster presentations &amp; discussion.</p></td>
+                </tr>
+                <tr>
+                    <td>12:00 &ndash; 12:55</td>
+                    <td><h4>Lunch Break</h4></td>
+                    <td><p></p></td>
+                </tr>
+                <tr>
+                    <td>12:55 &ndash; 13:25</td>
+                    <td><h4>Contributed Spotlights 4&ndash;6</h4></td>
+                    <td><p>8 min talk + 2 min Q&amp;A each.</p></td>
+                </tr>
+                <tr>
+                    <td>13:25 &ndash; 14:55</td>
+                    <td><h4>Invited Talks 4&ndash;6</h4></td>
+                    <td><p>25 min talk + 5 min Q&amp;A each.</p></td>
+                </tr>
+                <tr>
+                    <td>14:55 &ndash; 15:05</td>
+                    <td><h4>Coffee Break</h4></td>
+                    <td><p></p></td>
+                </tr>
+                <tr>
+                    <td>15:05 &ndash; 15:10</td>
+                    <td><h4>Best Paper Announcement</h4></td>
+                    <td><p>Prize announcement.</p></td>
+                </tr>
+                <tr>
+                    <td>15:10 &ndash; 16:00</td>
+                    <td><h4>Panel Discussion</h4></td>
+                    <td>
+                        <p>All speakers. Topics include:</p>
+                        <ul style="margin:0; padding-left:18px;">
+                            <li>Can understanding ever be measured the same way across disciplines &mdash; or is "good interpretability" inherently traditional?</li>
+                            <li>Beyond mathematics, physics, cognitive science, and neuroscience &mdash; which other disciplines does a science of AI actually need?</li>
+                            <li>Neural networks are framed as model organisms &mdash; but what exactly are they a model <em>of</em>, and where does the analogy guide us versus quietly mislead us?</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>16:00 &ndash; 17:00</td>
+                    <td><h4>Poster Session 2</h4></td>
+                    <td><p>Interactive poster presentations &amp; discussion.</p></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- ============== CALL FOR PAPERS ============== -->
+    <section id="call">
+        <div class="sectitle"><h2>Call for Contributed Work</h2></div>
+        <div class="margin">
+            <p>
+                We welcome <b>empirical</b>, <b>theoretical</b>, and <b>position</b> submissions that bring
+                mathematics, physics, cognitive science, and neuroscience to bear on understanding
+                <em>and</em> designing modern AI systems.
+            </p>
+            <p>
+                <b>Format:</b> Extended abstracts of up to <b>4 or 8 pages</b> (excluding references) in the
+                standard NeurIPS format. All accepted papers are <b>non-archival</b> to encourage ongoing work.
+                Reviewing is conducted via <b>OpenReview</b>.
+            </p>
+            <p>
+                <b>Selection &amp; Awards:</b> High-quality submissions will be selected for
+                <b>Contributed Talks</b> (Spotlights) and will be eligible for the <b>Best Paper Award</b>.
+            </p>
+            <p>
+                <b>Travel Subsidies &amp; Inclusion:</b> We will reserve travel subsidies for students,
+                early-career researchers, and participants from underrepresented groups and from the
+                natural-science communities we aim to draw in.
+            </p>
+        </div>
+
+        <h3 style="text-align:center; margin-top:40px; margin-bottom:14px;">Topics of interest (not limited to)</h3>
+        <div class="call">
+            <div class="contrib-category">
+                <h3 class="category-title t-math"><span class="ico"></span>Mathematics &amp; Learning Theory</h3>
+                Learning dynamics, generalization theory, optimization geometry, random matrix theory, and
+                provable guarantees for modern architectures.
+            </div>
+            <div class="contrib-category">
+                <h3 class="category-title t-phys"><span class="ico"></span>Physics-inspired AI</h3>
+                Statistical mechanics of learning, phase transitions, mean-field and feature-learning limits,
+                disordered systems, and macroscopic laws.
+            </div>
+            <div class="contrib-category">
+                <h3 class="category-title t-cogsci"><span class="ico"></span>Cognitively-inspired AI</h3>
+                Behavioral paradigms, psychophysics-style probes, theory-of-mind evaluation, dual-process models,
+                and cognitive primitives.
+            </div>
+            <div class="contrib-category">
+                <h3 class="category-title t-neuro"><span class="ico"></span>Neuroscience- &amp; brain-inspired AI</h3>
+                Circuit-level analyses, ablation/perturbation methods, population-activity analysis, and
+                architectural templates (e.g., attractor dynamics, predictive coding).
+            </div>
+            <div class="contrib-category">
+                <h3 class="category-title t-mi"><span class="ico"></span>Mechanistic Interpretability</h3>
+                Reverse-engineering trained networks, circuit-motif discovery, causal validation, and
+                cross-architecture comparison.
+            </div>
+            <div class="contrib-category">
+                <h3 class="category-title t-pos"><span class="ico"></span>Position &amp; Methodology</h3>
+                What should a science of AI look like? Evaluation standards, epistemology, and methodological
+                foundations.
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== DATES ============== -->
+    <section class="dates" id="dates">
+        <div class="sectitle"><h2>Important Dates</h2></div>
+        <div class="important-dates-list">
+            <div class="date-item">
+                <span class="date-event">Workshop acceptance notification (NeurIPS)</span>
+                <span class="date-value">July 11, 2026</span>
+            </div>
+            <div class="date-item">
+                <span class="date-event">Paper submission opens</span>
+                <span class="date-value">July 15, 2026 <span class="date-note">(tentative)</span></span>
+            </div>
+            <div class="date-item">
+                <span class="date-event">Paper submission deadline</span>
+                <span class="date-value">August 29, 2026 <span class="date-note">(AoE)</span></span>
+            </div>
+            <div class="date-item">
+                <span class="date-event">Notification of acceptance</span>
+                <span class="date-value">September 29, 2026</span>
+            </div>
+            <div class="date-item">
+                <span class="date-event">Camera-ready deadline</span>
+                <span class="date-value">November 21, 2026 <span class="date-note">(AoE, tentative)</span></span>
+            </div>
+            <div class="date-item">
+                <span class="date-event">Workshop day</span>
+                <span class="date-value date-tba">TBD <span class="date-note">(NeurIPS workshop track, Dec 11&ndash;12, 2026)</span></span>
+            </div>
+        </div>
+        <p class="dates-note">
+            NeurIPS 2026 conference: <b>December 6&ndash;12, 2026</b>. Internal dates are aligned with
+            the NeurIPS 2026 <a href="https://neurips.cc/Conferences/2026/Dates" target="_blank">official calendar</a>;
+            final dates will be confirmed upon workshop acceptance.
+        </p>
+    </section>
+
+    <!-- ============== ORGANIZERS ============== -->
+    <section id="organizers" class="organizers">
+        <div class="sectitle"><h2>Organizers</h2></div>
+
+        <div class="subgroup-title">Junior Organizers</div>
+        <div class="grid">
+            <div class="row">
+                <div class="person">
+                    <a href="https://jd730.github.io" target="_blank">
+                        <img src="imgs/hwang.jpg" alt="Jaedong Hwang" />
+                    </a>
+                    <h5><a href="https://jd730.github.io" target="_blank">Jaedong Hwang</a></h5>
+                    <div class="affil">MIT</div>
+                    <div class="role">PhD Student</div>
+                </div>
+                <div class="person">
+                    <a href="https://jeakwon.github.io/" target="_blank">
+                        <img src="imgs/kwon.png" alt="Jea Kwon" />
+                    </a>
+                    <h5><a href="https://jeakwon.github.io/" target="_blank">Jea Kwon</a></h5>
+                    <div class="affil">MPI for Security &amp; Privacy</div>
+                    <div class="role">Postdoctoral Researcher</div>
+                </div>
+                <div class="person">
+                    <a href="https://www.microsoft.com/en-us/research/people/dongqihan" target="_blank">
+                        <img src="imgs/han.jpg" alt="Dongqi Han" />
+                    </a>
+                    <h5><a href="https://www.microsoft.com/en-us/research/people/dongqihan" target="_blank">Dongqi Han</a></h5>
+                    <div class="affil">Microsoft Research Asia</div>
+                    <div class="role">Senior Researcher</div>
+                </div>
+                <div class="person">
+                    <a href="https://kevinwli.net/" target="_blank">
+                        <img src="imgs/wenliang.jpg" alt="Li Kevin Wenliang" />
+                    </a>
+                    <h5><a href="https://kevinwli.net/" target="_blank">Li Kevin Wenliang</a></h5>
+                    <div class="affil">Google DeepMind &middot; UCL</div>
+                    <div class="role">Research Scientist</div>
+                </div>
+                <div class="person">
+                    <a href="https://rosanneliu.com/" target="_blank">
+                        <img src="imgs/liu.jpg" alt="Rosanne Liu" />
+                    </a>
+                    <h5><a href="https://rosanneliu.com/" target="_blank">Rosanne Liu</a></h5>
+                    <div class="affil">Google DeepMind &middot; ML Collective</div>
+                    <div class="role">Research Scientist</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subgroup-title">Senior Organizers &amp; Scientific Advisory Board</div>
+        <div class="grid">
+            <div class="row">
+                <div class="person">
+                    <a href="https://www.kyb.tuebingen.mpg.de/person/95844/60427" target="_blank">
+                        <img src="imgs/dayan.jpg" alt="Peter Dayan" />
+                    </a>
+                    <h5><a href="https://www.kyb.tuebingen.mpg.de/person/95844/60427" target="_blank">Peter Dayan</a></h5>
+                    <div class="affil">MPI for Biological Cybernetics</div>
+                    <div class="role">Director</div>
+                </div>
+                <div class="person">
+                    <a href="https://sites.google.com/site/sueyeonchung" target="_blank">
+                        <img src="imgs/chung.jpg" alt="SueYeon Chung" />
+                    </a>
+                    <h5><a href="https://sites.google.com/site/sueyeonchung" target="_blank">SueYeon Chung</a></h5>
+                    <div class="affil">Harvard &middot; Kempner &middot; Flatiron</div>
+                    <div class="role">Assistant Professor</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== CONTACT ============== -->
+    <section id="contact">
+        <div class="sectitle"><h2>Contact</h2></div>
+        <div class="margin contact-row">
+            <p>
+                For workshop questions, please email
+                <a href="mailto:scifai26@gmail.com">scifai26@gmail.com</a>.
+            </p>
+            <p class="foot" style="margin-top: 20px;">
+                &copy; 2026 Sci-fAI Workshop Organizers &middot; NeurIPS 2026
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
